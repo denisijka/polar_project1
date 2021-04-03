@@ -10,5 +10,22 @@
       font-size: 20px;
       line-height: 20px;
     }
+    &__link {
+      margin-top: 13px;
+    }
+  }
+  .button_main {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .advantages {
+    min-height: 450px;
+    padding: 52px 25px 60px;
+    &__wrapper {
+    }
+    &__item {
+      width: 215px;
+    }
   }
 }
