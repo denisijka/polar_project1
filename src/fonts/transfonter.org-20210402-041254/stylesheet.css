@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Light.woff2') format('woff2'),
+        url('MuseoModerno-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('MuseoModerno-Medium.woff2') format('woff2'),
+        url('MuseoModerno-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
