@@ -1,5 +1,4 @@
 .advantages {
-  min-height: 470px;
   padding: 70px 0 83px;
   background: #f6f6f6;
   &__wrapper {
@@ -10,15 +9,10 @@
   &__item {
     display: flex;
     flex-direction: column;
-    width: 237px;
+    max-width: 237px;
     align-items: center;
-    img {
-      display: block;
-      margin: 0 auto;
-    }
   }
   &__subtitle {
-    text-align: center;
     font-weight: bold;
     font-size: 18px;
     line-height: 18px;
@@ -26,7 +20,6 @@
     margin-top: 35px;
   }
   &__descr {
-    // width: 280px;
     text-align: center;
     font-weight: 300;
     font-size: 14px;
@@ -36,6 +29,7 @@
     a {
       font-family: "MuseoModerno", sans-serif;
       color: #ff0000;
+      text-decoration: underline;
     }
   }
 }
