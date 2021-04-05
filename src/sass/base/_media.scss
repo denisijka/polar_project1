@@ -1,6 +1,8 @@
 @media (max-width: 1200px) {
+  /* от 992px до 1200px */
 }
 @media (max-width: 991px) {
+  /* от 768px до 992px */
   .promo {
     padding: 21px 20px 93px 20px;
     &__header {
@@ -30,6 +32,7 @@
   }
 }
 @media (max-width: 767px) {
+  // от 576px до 768px
   .header {
     &__logo {
       img {
@@ -88,10 +91,8 @@
     &__wrapper {
       margin-top: 10px;
       flex-direction: column;
-      // flex-flow: column wrap;
     }
     &__item {
-      // flex-direction: column;
       margin-top: 30px;
       width: 100%;
     }
@@ -106,7 +107,6 @@
       text-align: left;
       font-size: 13px;
       margin-top: 5px;
-      // align-items: center;
       width: 350px;
     }
   }
