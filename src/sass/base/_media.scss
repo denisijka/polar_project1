@@ -3,8 +3,11 @@
 }
 @media (max-width: 991px) {
   /* от 768px до 992px */
+  .container {
+    max-width: 725px;
+  }
   .promo {
-    padding: 21px 20px 93px 20px;
+    padding: 21px 0 93px;
     &__header {
       font-size: 38px;
     }
@@ -23,24 +26,35 @@
   }
   .advantages {
     min-height: 450px;
-    padding: 52px 25px 60px;
-    &__wrapper {
-    }
+    padding: 52px 0 60px;
+
     &__item {
       width: 215px;
+    }
+  }
+  .consultation {
+    min-height: 601px;
+    padding: 78px 0 102px;
+    .title_left {
+      font-size: 29px;
+      line-height: 42px;
+    }
+    &__descr {
+      line-height: 26px;
     }
   }
 }
 @media (max-width: 767px) {
   // от 576px до 768px
+  .container {
+    max-width: 530px;
+  }
   .header {
     &__logo {
-      img {
-        width: 70%;
-      }
+      width: 138px;
     }
     &__official {
-      margin-right: 83px;
+      margin: 0 auto;
       font-size: 9px;
       span {
         font-size: 16px;
@@ -56,22 +70,19 @@
     font-size: 13px;
   }
   .promo {
-    padding: 21px 20px 50px 20px;
+    padding: 35px 0 50px;
     &__wrapper {
       align-items: center;
     }
     &__header {
-      font-size: 30px;
+      font-size: 35px;
     }
     &__subheader {
-      font-size: 17px;
-      line-height: 17px;
+      font-size: 18px;
+      line-height: 18px;
     }
     &__icon {
       font-size: 12px;
-      img {
-        width: 30px;
-      }
     }
     &__link {
       font-size: 14px;
@@ -79,9 +90,9 @@
     }
   }
   .button_main {
-    width: 200px;
-    height: 40px;
-    font-size: 13px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
     margin-top: 100px;
   }
   .title {
@@ -91,13 +102,15 @@
     &__wrapper {
       margin-top: 10px;
       flex-direction: column;
+      align-items: center;
     }
     &__item {
+      max-width: 400px;
       margin-top: 30px;
-      width: 100%;
     }
     &__icon {
       width: 60px;
+      margin-top: 10px;
     }
     &__subtitle {
       font-size: 16px;
@@ -105,11 +118,74 @@
     }
     &__descr {
       text-align: left;
-      font-size: 13px;
-      margin-top: 5px;
-      width: 350px;
+      font-size: 15px;
+      line-height: 23px;
+      margin-top: 15px;
+      width: 425px;
+    }
+  }
+  .consultation {
+    min-height: 559px;
+    padding: 78px 0 78px;
+    .title {
+      font-size: 24px;
+      line-height: 35px;
+      text-align: center;
+      br {
+        display: none;
+      }
+    }
+    &__descr {
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .feed-form {
+      align-items: center;
+      width: 100%;
+      input {
+        width: 350px;
+      }
+      .button_submit {
+        width: 350px;
+        height: 48px;
+        font-size: 18px;
+      }
     }
   }
 }
 @media (max-width: 575px) {
+  // от 320px до 576px
+  .container {
+    max-width: 300px;
+  }
+  .promo {
+    .header {
+      &__official {
+        display: none;
+      }
+    }
+    &__header {
+      font-size: 23px;
+    }
+    &__subheader {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    &__icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__icon {
+      font-size: 20px;
+      width: 250px;
+      margin-top: 10px;
+      img {
+        margin-top: 10px;
+        width: 55px;
+      }
+    }
+  }
 }
