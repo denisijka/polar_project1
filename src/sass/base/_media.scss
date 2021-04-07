@@ -168,7 +168,13 @@
 @media (max-width: 575px) {
   // от 320px до 576px
   .container {
-    max-width: 300px;
+    max-width: 310px;
+  }
+  .header {
+    .button {
+      width: 150px;
+      height: 30px;
+    }
   }
   .promo {
     .header {
