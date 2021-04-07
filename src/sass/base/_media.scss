@@ -18,14 +18,15 @@
     &__link {
       margin-top: 13px;
     }
+    .button_main {
+      width: 250px;
+      height: 50px;
+      font-size: 15px;
+    }
   }
-  .button_main {
-    width: 250px;
-    height: 50px;
-    font-size: 15px;
-  }
+
   .advantages {
-    // min-height: 450px;
+    min-height: 450px;
     padding: 52px 0 60px;
 
     &__item {
@@ -63,12 +64,13 @@
     &__phone {
       font-size: 13px;
     }
+    .button {
+      width: 150px;
+      height: 33px;
+      font-size: 13px;
+    }
   }
-  .button {
-    width: 135px;
-    height: 33px;
-    font-size: 13px;
-  }
+
   .promo {
     padding: 35px 0 50px;
     &__wrapper {
@@ -77,41 +79,34 @@
     }
     &__header {
       font-size: 35px;
-      // margin: 0 auto;
     }
     &__subheader {
       font-size: 18px;
       line-height: 18px;
-      // margin: 0 auto;
       margin-top: 17px;
     }
     &__icons {
-      // margin: 0 auto;
       margin-top: 60px;
     }
     &__icon {
       font-size: 12px;
     }
     .button_main {
-      // margin: 0 auto;
+      width: 250px;
+      height: 50px;
+      font-size: 15px;
       margin-top: 100px;
     }
     &__link {
       font-size: 14px;
-      // margin: 0 auto;
       margin-top: 9px;
     }
   }
-  .button_main {
-    width: 250px;
-    height: 50px;
-    font-size: 15px;
-    margin-top: 100px;
-  }
-  .title {
-    font-size: 28px;
-  }
+
   .advantages {
+    .title {
+      font-size: 28px;
+    }
     &__wrapper {
       flex-direction: column;
       align-items: center;
